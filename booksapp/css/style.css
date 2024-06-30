@@ -1,0 +1,51 @@
+
+body {
+  background-color: rgba(80, 69, 112, 0.541);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  }
+  
+  .center {
+    margin: auto;
+    margin-top: 200px;
+  }
+  
+  #header {
+    font-family: 'Righteous', sans-serif;
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-family: 'Righteous', sans-serif;
+  }
+  
+  .book-list {
+    background-color: rgba(162, 158, 180, 0.412);
+    margin-top: 50px;
+    margin-bottom: 40px;
+    visibility: hidden;
+  }
+  .ann {
+    position: relative;
+    left: 30px;
+  }
+  .an {
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+  }
+
+  #search {
+    background-color: #370c27;
+    color: #fff;
+    border: none; 
+    padding: 5px 10px;
+    cursor: pointer; 
+  }
+  
+  #input #search:hover,
+  #input #search:focus {
+    background-color:  #310b23;
+  }
+  
