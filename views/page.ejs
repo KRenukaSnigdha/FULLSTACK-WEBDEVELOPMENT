@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="https://th.bing.com/th/id/OIP.GUdTSKAh11DYzmfPR47XiQHaHa?pid=ImgDet&w=179&h=179&c=7&dpr=1.3">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        color: #3a193d;
+        margin: 40px;
+        padding: 30px;
+        background-image: url('https://img.freepik.com/premium-vector/back-school-doodle-seamless-pattern_153454-910.jpg');
+          
+      }
+      h1 {
+          font-size: 46px;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          font-style: italic;
+          font-weight: bold;
+      }
+      h5 {
+          font-size: 24px;
+          margin-bottom: 3px;
+          font-style: italic;
+      }
+      h6{
+          font-size: 22px;
+          font-weight: bold;
+          font-style: italic;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          padding-bottom: 10px;
+          padding-top: 10px;
+      }
+      img {
+          width: 300px;
+          height: 300px;
+      }
+      p {
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-size: 20px;
+          font-style: italic;
+      }
+      .co {
+          padding: 20px;
+          background-color:  #96419c35;
+      }
+      .con {
+          background-color: rgb(56, 40, 63);
+          width: 100%;
+          padding: 2px;
+          margin: 2px;     
+      }
+      button {
+         width: 130px;
+         margin-top: 5px;
+        background-color:rgb(98, 32, 133);
+        color: #fff;
+        padding: 5px 5px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+  .co {
+      position: relative;
+  }
+  
+  .im {
+      height: 30px;
+      width: 30px;
+  }
+  
+  .container {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .card {
+        margin-bottom: 10px;
+      }
+      #course-container {
+        display: none;
+      }
+      @media (min-width: 768px) {
+        .col-md-4 {
+          flex: 0 0 32%;
+          max-width: 52%;
+          height: 650px;
+        }
+        #course-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+        }
+        #course-container .col {
+          flex: 0 0 30%;
+          max-width: 30%;
+         margin-left: 30px;
+         height: 650px;
+        }
+        #course-container .card {
+          width: 370px;
+          height: 250px;
+          margin: 10px;
+        }
+      }
+      .para {
+          font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <center>
+      <h1>WEB DEVELOPPMENT</h1><br><br>
+  </center>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://th.bing.com/th/id/OIP.En5nWBWl3DXNDz2PUTLsPwAAAA?rs=1&pid=ImgDetMain" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title cart"><img src="https://jhumadrid.org/wp-content/uploads/2022/06/cropped-university.shield.blue_.png" class="im" >  &ensp; Johns Hopkins University</h5>
+                <h6 class="card-text">HTML, CSS, and Javascript for Web Developers.</h6>
+                <p class="card-text">Skills you'll gain : HTML ,  JavaScript , Css Frameworks ,  Cascading Style Sheets (CSS).</p><br>
+                <p class="card-text ca">$49.30</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_1000/v1709060085/catalog/1574108548209643520/vgwb27pwwfgwvogjkq1k.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><img class="im" src="https://th.bing.com/th/id/OIP.FgAp0wko1myIorZgtYqxdQHaEK?w=1280&h=720&rs=1&pid=ImgDetMain"> &ensp; Meta</h5>
+                <h6 class="card-text">Introduction to Front-End Development.</h6>
+                <p class="card-text">Skills you'll gain : Web Development Tools , HTML and CSS , Responsive Web Design , Front-End Web Development , User Interface.</p><br>
+                <p class="card-text ca">$39.70</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+              <div class="card h-100">
+                <img src="https://spotoninstitute.com/wp-content/uploads/2024/02/dev-min.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><img src="https://th.bing.com/th/id/OIP.Bs2PlI-wmfFiYzgWNRO0pgHaDO?w=324&h=152&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="im" >  &ensp; IBM</h5>
+                  <h6 class="card-text">Developer Software Stack FullIBM</h6>
+                  <p class="card-text">Skills you'll gain: Cloud Computing, IBM Cloud,Cloud Applications, Javascript, Cloud Management, Cloud Infrastructure,</p><br>
+                  <p class="card-text ca">$28.40</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+        </div><br><br>
+      <center>
+          <p class="para">Want to see all courses! &emsp; &emsp; <button id="search-button" type="button">Search</button></p> <br><br><br>
+  
+  
+  <div id="course-container" class="container">
+      <div class="row row-cols-md-3 row-cols-md-8 g-4">
+        <div class="col">
+        <div class="card h-100">
+          <img src="https://th.bing.com/th/id/OIP.En5nWBWl3DXNDz2PUTLsPwAAAA?rs=1&pid=ImgDetMain" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title cart"><img src="https://www.gannett-cdn.com/-mm-/098f9f3746ed3ef2872868bbf45482db5b36e9a8/c=0-55-486-330&r=x1683&c=3200x1680/local/-/media/2016/04/27/DetroitFreePress/DetroitFreePress/635973533539273027-U-M-logo.jpg-1-1-OC9FVI8C-L537883171.JPG" class="im" >  &ensp; University of Michigan</h5>
+            <h6 class="card-text">Introduction to HTML5.</h6>
+            <p class="card-text">Skills you'll gain :  Web Design , Web Accessibility , HTML , Html5</p><br>
+            <p class="card-text ca">$123.32</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_1000/v1709060085/catalog/1574108548209643520/vgwb27pwwfgwvogjkq1k.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><img class="im" src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2019/08/tencent-cloud.jpg?itok=SdBV-vvF"> &ensp; Tencent Cloud </h5>
+            <h6 class="card-text">Introduction to Front-End Development.</h6>
+            <p class="card-text">Skills you'll gain : Web Development Tools , HTML and CSS , Responsive Web Design , Front-End Web Development , User Interface.</p><br>
+            <p class="card-text ca">$24.30</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+          <div class="card h-100">
+            <img src="https://spotoninstitute.com/wp-content/uploads/2024/02/dev-min.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><img src="https://th.bing.com/th/id/OIP.aRPrGAq7PyN2_j83ERu25gAAAA?rs=1&pid=ImgDetMain" class="im" >  &ensp; Coursera Project Network</h5>
+              <h6 class="card-text">Build a mobile app with Google Sheets on Glide and no coding</p>
+              <p class="card-text">Skills you'll gain: Marketing, Mobile Development, Web Development</p><h6>
+              <p class="card-text ca">$79.30</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+      </div>
+        </div><br><br><br><br><br>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://th.bing.com/th/id/OIP.En5nWBWl3DXNDz2PUTLsPwAAAA?rs=1&pid=ImgDetMain" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title cart"><img src="https://www.gannett-cdn.com/-mm-/098f9f3746ed3ef2872868bbf45482db5b36e9a8/c=0-55-486-330&r=x1683&c=3200x1680/local/-/media/2016/04/27/DetroitFreePress/DetroitFreePress/635973533539273027-U-M-logo.jpg-1-1-OC9FVI8C-L537883171.JPG" class="im" >  &ensp; University of Michigan</h5>
+            <h6 class="card-text">Advanced Styling with Responsive Design.</h6>
+            <p class="card-text">Skills you'll gain :Bootstrap (Front-End Framework) ,  Responsive Web Design , JavaScript , CSS</p><br>
+            <p class="card-text ca">$100.24</p>     
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_1000/v1709060085/catalog/1574108548209643520/vgwb27pwwfgwvogjkq1k.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><img class="im" src="https://th.bing.com/th/id/R.33f3d423267251d78f9b7fd9c52c5083?rik=wEwElRU308cNFA&riu=http%3a%2f%2fhdwpro.com%2fwp-content%2fuploads%2f2018%2f12%2fFree-Google-Logo.png&ehk=UUiYGS9KK60CP54BZ0LhG6V7%2bFngWgtphBrElZQTvVc%3d&risl=&pid=ImgRaw&r=0"> &ensp; Google</h5>
+            <h6 class="card-text">Google UX Design.</h6>
+            <p class="card-text">Skills you'll gain :User Experience, User Experience Design, User Research, Human Computer Interaction.</p><br>
+            <p class="card-text ca">$94.24</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+          <div class="card h-100">
+            <img src="https://spotoninstitute.com/wp-content/uploads/2024/02/dev-min.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><img src="https://th.bing.com/th/id/OIP.Bs2PlI-wmfFiYzgWNRO0pgHaDO?w=324&h=152&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="im" >  &ensp; IBM</h5>
+              <h6 class="card-text">Developer Software Stack FullIBM</h6>
+              <p class="card-text">Skills you'll gain: Cloud Computing, IBM Cloud,Cloud Applications, Javascript, Cloud Management.</p><br>
+              <p class="card-text ca">$39.45</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+      </div>
+        </div>
+    </div>
+      </div>
+       <br><br><br>
+
+    <br></center>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      $(document).ready(function() {
+       
+        $('#search-button').click(function() {
+          $('#course-container').toggle();
+        });
+      });
+
+      $(document).ready(function() {
+   
+    function fetchCourses(query) {
+      var accessToken = "PzxH2eATYROzSAchJDCM1AhonDAo"; 
+      $.ajax({
+        url: 'https://api.coursera.com',
+        method: 'GET',
+        headers: {
+          'Authorization': 'Bearer ' + accessToken
+        },
+        data: { q: query },
+        success: function(response) {
+          if(response.elements) {
+            displayCourses(response.elements);
+          } else {
+            $('#course-list').html('<p>No courses found</p>');
+          }
+        },
+        error: function(xhr, status, error) {
+          console.error('API Error:', error);
+          $('#course-list').html('<p>Error fetching courses. Please try again later.</p>');
+        }
+      });
+    }
+
+   
+    function displayCourses(courses) {
+      var courseList = $('#course-list');
+      courseList.empty();
+      courses.forEach(function(course) {
+        var courseCard = $('<div class="card"></div>');
+        courseCard.append('<h2 class="card-title">' + course.name + '</h2>');
+        courseCard.append('<p class="card-description">' + course.description + '</p>');
+        courseCard.append('<a class="card-link" href="' + course.link + '" target="_blank">View Course</a>');
+        courseList.append(courseCard);
+      });
+    }
+
+    
+    $('#search-form').submit(function(event) {
+      event.preventDefault(); 
+      var query = $('#search-input').val(); 
+      if(query.trim() !== '') {
+        fetchCourses(query); 
+      } else {
+        $('#course-list').html('<p>Please enter a search query</p>');
+      }
+    });
+  });
+  
+  
+</script>
+  </body>
+  </html>
+  
+
